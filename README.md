@@ -1,7 +1,7 @@
 # dev.tkirch.wsc.gameq
 Provides the "Austinb GameQ" library at the WSC.
 
-# docs
+## Docs
 To load the library you can use the following code:
 
 ```PHP
