@@ -1,0 +1,9 @@
+{
+    "config": {
+        "vendor-dir": "./",
+        "prepend-autoloader": false
+    },
+    "require": {
+        "austinb/gameq": "~3.0"
+    }
+}
