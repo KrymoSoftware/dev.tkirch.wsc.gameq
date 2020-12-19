@@ -1,5 +1,5 @@
 # dev.tkirch.wsc.gameq
-Provides the "Austinb GameQ" library at the WSC.
+Provides the [Austinb GameQ](https://github.com/Austinb/GameQ) library at the [WoltLab Suite Core](https://github.com/WoltLab/WCF).
 
 ## Docs
 To load the library you can use the following code:
