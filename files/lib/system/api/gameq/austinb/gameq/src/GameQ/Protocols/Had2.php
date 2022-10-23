@@ -19,11 +19,11 @@
 namespace GameQ\Protocols;
 
 /**
- * Serious Sam Protocol Class
+ * Hidden & Dangerous 2 Protocol Class
  *
- * @author ZCaliptium <zcaliptium@gmail.com>
+ * @author Wilson Jesus <>
  */
-class Serioussam extends Gamespy
+class Had2 extends Gamespy2
 {
 
     /**
@@ -31,21 +31,21 @@ class Serioussam extends Gamespy
      *
      * @type string
      */
-    protected $name = 'serioussam';
+    protected $name = 'had2';
 
     /**
      * Longer string name of this protocol class
      *
      * @type string
      */
-    protected $name_long = "Serious Sam";
+    protected $name_long = "Hidden & Dangerous 2";
 
     /**
-     * query_port = client_port + 1
+     * The difference between the client port and query port
      *
      * @type int
      */
-    protected $port_diff = 1;
+    protected $port_diff = 3;
 
     /**
      * Normalize settings for this protocol
@@ -56,20 +56,20 @@ class Serioussam extends Gamespy
         // General
         'general' => [
             // target       => source
-            'dedicated'  => 'dedicated',
+            'dedicated'  => 'isdedicated',
             'gametype'   => 'gametype',
             'hostname'   => 'hostname',
             'mapname'    => 'mapname',
             'maxplayers' => 'maxplayers',
-            'mod'        => 'activemod',
             'numplayers' => 'numplayers',
             'password'   => 'password',
         ],
         // Individual
         'player'  => [
             'name'  => 'player',
-            'ping'  => 'ping',
-            'score' => 'frags',
+            'score' => 'score',
+            'deaths' => 'deaths',
+            'ping' => 'ping',
         ],
     ];
 }

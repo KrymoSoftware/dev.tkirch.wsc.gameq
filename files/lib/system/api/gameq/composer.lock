@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "austinb/gameq",
-            "version": "v3.0.15",
+            "version": "v3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Austinb/GameQ.git",
-                "reference": "c62a7b46e5fe0149087d7f69cce146a31d457d3e"
+                "reference": "44e7906661ae90c68d77005f42cbbf151caea478"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Austinb/GameQ/zipball/c62a7b46e5fe0149087d7f69cce146a31d457d3e",
-                "reference": "c62a7b46e5fe0149087d7f69cce146a31d457d3e",
+                "url": "https://api.github.com/repos/Austinb/GameQ/zipball/44e7906661ae90c68d77005f42cbbf151caea478",
+                "reference": "44e7906661ae90c68d77005f42cbbf151caea478",
                 "shasum": ""
             },
             "require": {
@@ -28,10 +28,9 @@
             "require-dev": {
                 "corneltek/getoptionkit": "~2",
                 "ext-curl": "*",
-                "php-coveralls/php-coveralls": "^1.1 || ^2.1",
                 "phpmd/phpmd": "@stable",
                 "phpunit/php-invoker": "*",
-                "phpunit/phpunit": "^4.8 || ^6.0 || ^7.0",
+                "phpunit/phpunit": "^5.7 | ^6.0 | ^7.0 | ^8.0 | ^9.0",
                 "squizlabs/php_codesniffer": "3.*@stable"
             },
             "type": "library",
@@ -77,6 +76,12 @@
                     "name": "Sebastian Weidenbach",
                     "homepage": "http://sebastianwe.users.sourceforge.net/",
                     "role": "Developer"
+                },
+                {
+                    "name": "Patrick Henninger",
+                    "email": "privat@skyraptor.eu",
+                    "homepage": "https://skyraptor.eu",
+                    "role": "Developer"
                 }
             ],
             "description": "GameQ Gameserver Library",
@@ -84,13 +89,18 @@
                 "gameq",
                 "serverstatus"
             ],
+            "support": {
+                "issues": "https://github.com/Austinb/GameQ/issues",
+                "source": "https://github.com/Austinb/GameQ/v3",
+                "wiki": "https://github.com/Austinb/GameQ/wiki"
+            },
             "funding": [
                 {
                     "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VAU2KADATP5PU",
                     "type": "custom"
                 }
             ],
-            "time": "2020-02-26T03:50:36+00:00"
+            "time": "2022-08-28T16:06:34+00:00"
         }
     ],
     "packages-dev": [],
@@ -101,5 +111,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.3.0"
 }
