@@ -26,4 +26,8 @@
 	<instructions type="install">
 		<instruction type="file"/>
     </instructions>
+
+	<instructions type="update" fromversion="*">
+		<instruction type="file"/>
+	</instructions>
 </package>
