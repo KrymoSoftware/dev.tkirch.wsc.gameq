@@ -6,7 +6,7 @@
 		<packagedescription><![CDATA[This package provides the "Austinb GameQ" library to the WoltLab Suite Core.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Dieses Paket stellt die "Austinb GameQ"-Bibliothek dem WoltLab Suite Core zur Verfügung.]]></packagedescription>
 		<version>3.1.0</version>
-		<date>2022-10-30</date>
+		<date>2022-11-27</date>
 		<packageurl><![CDATA[https://krymo.software]]></packageurl>
 	</packageinformation>
 
