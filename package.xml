@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="dev.tkirch.wsc.gameq" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/2019/package.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="dev.tkirch.wsc.gameq"
+		 xmlns="http://www.woltlab.com"
+		 xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/6.0/package.xsd">
 	<packageinformation>
 		<packagename><![CDATA["Austinb GameQ" Library]]></packagename>
 		<packagename language="de"><![CDATA["Austinb GameQ"-Bibliothek]]></packagename>
-		<packagedescription><![CDATA[This package provides the "Austinb GameQ" library to the WoltLab Suite Core.]]></packagedescription>
-		<packagedescription language="de"><![CDATA[Dieses Paket stellt die "Austinb GameQ"-Bibliothek dem WoltLab Suite Core zur Verfügung.]]></packagedescription>
-		<version>3.1.0</version>
-		<date>2022-11-27</date>
+		<packagedescription>
+			<![CDATA[This package provides the "Austinb GameQ" library (version 3.1.0) to the WoltLab Suite Core.]]></packagedescription>
+		<packagedescription language="de">
+			<![CDATA[Dieses Paket stellt die "Austinb GameQ"-Bibliothek (Version 3.1.0) dem WoltLab Suite Core zur Verfügung.]]></packagedescription>
+		<version>3.1.1</version>
+		<date>2024-08-13</date>
 		<packageurl><![CDATA[https://krymo.software]]></packageurl>
 	</packageinformation>
 
@@ -16,16 +20,16 @@
 	</authorinformation>
 
 	<requiredpackages>
-		<requiredpackage minversion="5.3.0">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="6.0.16">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
-    
-    <excludedpackages>
-        <excludedpackage version="6.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+
+	<excludedpackages>
+		<excludedpackage version="6.1.0 Alpha 1">com.woltlab.wcf</excludedpackage>
 	</excludedpackages>
 
 	<instructions type="install">
 		<instruction type="file"/>
-    </instructions>
+	</instructions>
 
 	<instructions type="update" fromversion="*">
 		<instruction type="file"/>
