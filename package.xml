@@ -31,7 +31,7 @@
 		<instruction type="file"/>
 	</instructions>
 
-	<instructions type="update" fromversion="*">
-		<instruction type="file"/>
+	<instructions type="update" fromversion="3.1.0">
+		<void/>
 	</instructions>
 </package>
