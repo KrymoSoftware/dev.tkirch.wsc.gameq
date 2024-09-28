@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = $vendorDir;
 
 return array(
-    'GameQ\\' => array($vendorDir . '/austinb/gameq/src/GameQ'),
+    'GameQ\\' => array($vendorDir . '/krymosoftware/gameq/src/GameQ'),
 );

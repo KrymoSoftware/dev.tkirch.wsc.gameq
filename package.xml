@@ -3,14 +3,14 @@
 		 xmlns="http://www.woltlab.com"
 		 xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/6.0/package.xsd">
 	<packageinformation>
-		<packagename><![CDATA["Austinb GameQ" Library]]></packagename>
-		<packagename language="de"><![CDATA["Austinb GameQ"-Bibliothek]]></packagename>
+		<packagename><![CDATA[GameQ Library (Developer Package)]]></packagename>
+		<packagename language="de"><![CDATA[GameQ-Bibliothek (Entwicklerpaket)]]></packagename>
 		<packagedescription>
-			<![CDATA[This package provides the "Austinb GameQ" library (version 3.1.0) to the WoltLab Suite Core.]]></packagedescription>
+			<![CDATA[This package provides the GameQ library by Austinb (version 4.0.0, fork by Krymo Software) to the WoltLab Suite Core.]]></packagedescription>
 		<packagedescription language="de">
-			<![CDATA[Dieses Paket stellt die "Austinb GameQ"-Bibliothek (Version 3.1.0) dem WoltLab Suite Core zur Verfügung.]]></packagedescription>
-		<version>3.1.1</version>
-		<date>2024-08-13</date>
+			<![CDATA[Dieses Paket stellt die GameQ-Bibliothek von Austinb (Version 4.0.0, Fork von Krymo Software) dem WoltLab Suite Core zur Verfügung.]]></packagedescription>
+		<version>4.0.0</version>
+		<date>2024-09-28</date>
 		<packageurl><![CDATA[https://krymo.software]]></packageurl>
 	</packageinformation>
 
@@ -20,18 +20,19 @@
 	</authorinformation>
 
 	<requiredpackages>
-		<requiredpackage minversion="5.5.22">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="6.0.17">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 
 	<excludedpackages>
-		<excludedpackage version="6.1.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+		<excludedpackage version="6.2.0 Alpha 1">com.woltlab.wcf</excludedpackage>
 	</excludedpackages>
 
 	<instructions type="install">
 		<instruction type="file"/>
 	</instructions>
 
-	<instructions type="update" fromversion="3.1.0">
-		<void/>
+	<instructions type="update" fromversion="3.1.*">
+		<instruction type="file"/>
+		<instruction type="fileDelete"/>
 	</instructions>
 </package>

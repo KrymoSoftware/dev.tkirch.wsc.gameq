@@ -1,34 +1,38 @@
 {
     "packages": [
         {
-            "name": "austinb/gameq",
-            "version": "v3.1.0",
-            "version_normalized": "3.1.0.0",
+            "name": "krymosoftware/gameq",
+            "version": "4.0.0",
+            "version_normalized": "4.0.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Austinb/GameQ.git",
-                "reference": "44e7906661ae90c68d77005f42cbbf151caea478"
+                "url": "https://github.com/KrymoSoftware/GameQ.git",
+                "reference": "5aa3c6e774b8f50439ba1c8e47cff8200f4a7862"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Austinb/GameQ/zipball/44e7906661ae90c68d77005f42cbbf151caea478",
-                "reference": "44e7906661ae90c68d77005f42cbbf151caea478",
+                "url": "https://api.github.com/repos/KrymoSoftware/GameQ/zipball/5aa3c6e774b8f50439ba1c8e47cff8200f4a7862",
+                "reference": "5aa3c6e774b8f50439ba1c8e47cff8200f4a7862",
                 "shasum": ""
             },
             "require": {
                 "ext-bz2": "*",
+                "ext-simplexml": "*",
                 "ext-xml": "*",
-                "php": ">=5.6.40"
+                "php": ">=8.1"
             },
             "require-dev": {
                 "corneltek/getoptionkit": "~2",
                 "ext-curl": "*",
-                "phpmd/phpmd": "@stable",
+                "phpstan/extension-installer": "^1.4",
+                "phpstan/phpstan": "^1.12",
+                "phpstan/phpstan-deprecation-rules": "^1.2",
+                "phpstan/phpstan-phpunit": "^1.4",
                 "phpunit/php-invoker": "*",
-                "phpunit/phpunit": "^5.7 | ^6.0 | ^7.0 | ^8.0 | ^9.0",
+                "phpunit/phpunit": "^9.0",
                 "squizlabs/php_codesniffer": "3.*@stable"
             },
-            "time": "2022-08-28T16:06:34+00:00",
+            "time": "2024-09-27T18:19:15+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -46,6 +50,12 @@
                     "email": "austin.bischoff@gmail.com",
                     "homepage": "https://github.com/Austinb",
                     "role": "Packagist/Composer Maintainer, Developer"
+                },
+                {
+                    "name": "Krymo Software",
+                    "email": "info@krymo.software",
+                    "homepage": "https://krymo.software",
+                    "role": "Fork Maintainer, Developer"
                 },
                 {
                     "name": "Christoph Kretzschmar",
@@ -81,23 +91,17 @@
                     "role": "Developer"
                 }
             ],
-            "description": "GameQ Gameserver Library",
+            "description": "A maintained fork of the famous PHP Gameserver Status Query Library GameQ by Austinb",
             "keywords": [
                 "gameq",
                 "serverstatus"
             ],
             "support": {
-                "issues": "https://github.com/Austinb/GameQ/issues",
-                "source": "https://github.com/Austinb/GameQ/v3",
+                "issues": "https://github.com/KrymoSoftware/GameQ/issues",
+                "source": "https://github.com/KrymoSoftware/GameQ",
                 "wiki": "https://github.com/Austinb/GameQ/wiki"
             },
-            "funding": [
-                {
-                    "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VAU2KADATP5PU",
-                    "type": "custom"
-                }
-            ],
-            "install-path": "../austinb/gameq"
+            "install-path": "../krymosoftware/gameq"
         }
     ],
     "dev": true,
